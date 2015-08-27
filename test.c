@@ -17,8 +17,8 @@ int main(int argc, char** argv){
         up = atoi(fgets(input,80,stdin));
 	printf("Got %d for high\n", up);
         
-        for(low, low < up, low++){
-          if (low%7 !== 0){
+        for(low; low < up; low++){
+          if (low%7 != 0){
             count += low;
           }
         }
