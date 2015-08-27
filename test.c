@@ -10,11 +10,11 @@ int main(int argc, char** argv){
         printf("please q and hit Enter to exit \n");
 
         printf("Please enter the lower limit ( an integer only :) ");
-	low = atoi(fgets(input, 80, stdin));
+	low = atoi(fgets(input, 8, stdin));
 	printf("Got %d for low\n", low);
         
         printf("please input the upper limit, upper ==\n ");
-        up = atoi(fgets(input,80,stdin));
+        up = atoi(fgets(input,8,stdin));
 	printf("Got %d for high\n", up);
         
         for(low; low < up; low++){
