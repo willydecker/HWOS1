@@ -19,7 +19,7 @@ int main(int argc, char** argv){
         
         int count = 0;
         
-        for(low; low < up; ++low){
+        for(low; low < (up + 1); ++low){
           if (low%7 != 0){
             count += low;
           }
