@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main(int argc, char** argv){
     // you might consider to use scanf() for user input
-   int low = 0, up = 0, count = 0;
+   int low = 0, up = 0;
    char input[8];
 
     while(1){
@@ -16,6 +16,8 @@ int main(int argc, char** argv){
         printf("please input the upper limit, upper ==\n ");
         up = atoi(fgets(input,8,stdin));
 	printf("Got %d for high\n", up);
+        
+        int count = 0;
         
         for(low; low < up; low++){
           if (low%7 != 0){
