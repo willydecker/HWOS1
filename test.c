@@ -24,7 +24,7 @@ int main(int argc, char** argv){
           }
         }
         
-        printf("the total sum of numbers between lower and upper /n that cannot be divided exactly by 7 is %d \n", count);
+        printf("the total sum of numbers between lower and upper \n that cannot be divided exactly by 7 is %d \n", count);
     }
     return 0;// do not change this line
 }
