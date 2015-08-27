@@ -3,8 +3,8 @@
 #include<stdio.h>
 int main(int argc, char** argv){
     // you might consider to use scanf() for user input
-   int low = 0, up = 0;
-   char input[80];
+   int low = 0, up = 0, count = 0;
+   char input[8];
 
     while(1){
         printf("please q and hit Enter to exit \n");
@@ -17,8 +17,13 @@ int main(int argc, char** argv){
         up = atoi(fgets(input,80,stdin));
 	printf("Got %d for high\n", up);
         
-
-        printf("the total sum of numbers between lower and upper that cannot be divided exactly by 7 is %d \n", 0);
+        for(low, low < high, low++){
+          if (low%7 !== 0){
+            count += low;
+          }
+        }
+        
+        printf("the total sum of numbers between lower and upper that cannot be divided exactly by 7 is %d \n", count);
 
 
 
