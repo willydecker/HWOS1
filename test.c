@@ -13,7 +13,7 @@ int main(int argc, char** argv){
 	low = atoi(fgets(input, 8, stdin));
 	printf("Got %d for low\n", low);
         
-        printf("please input the upper limit, upper ==\n ");
+        printf("please input the upper limit, upper = \n ");
         up = atoi(fgets(input,8,stdin));
 	printf("Got %d for high\n", up);
         
